@@ -1,2 +1,2 @@
 # Kadumirands.github.io
-Repositório para meus desenvolvimentos de protótipos em linguagens de programação.
+Repository for my developments of prototypes in various coding languages.
