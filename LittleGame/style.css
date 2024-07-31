@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #7ed2ff, #b0e3ff);
+    position: relative;
+}
+
+.score-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.score {
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 30px;
+    transition: width 1s ease, height 1s ease
+}
+
+.square:hover {
+    
+    width: 120px;
+    height: 120px;
+}
+    
+
+.game-over-container {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.game-over span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#botao-restart {
+    padding: 10px 20px;
+    background-color: #413eff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
