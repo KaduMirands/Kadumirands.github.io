@@ -66,7 +66,7 @@ squares.forEach(square => {
         gameOverContainer.style.display = 'none'
         previousSquare = null
         squareClicked = true
-        clearInterval(gamePause);
+        clearInterval(gamePause)
     
         
         squares.forEach(square => {
