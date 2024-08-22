@@ -1,0 +1,32 @@
+body{
+	text-align: center;
+}
+
+.grid {
+	width: 400px;
+	height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-left: 37%;
+}
+
+.square {
+	height: 100px;
+	width: 100px;
+	border: solid black 1px;
+	
+}
+
+.mole {
+	background-image: url("mole.jpg");
+	background-size: cover;
+}
+
+.game-over-container{
+	display: none;
+	background-color: rgb(255, 0, 0);
+}
+
+	
+
