@@ -1,3 +1,5 @@
+Video: https://youtu.be/ec8vSKJuZTk?si=h5JsKe1zhxa6CeV3
+
 Personal Additions:
 
 Functionality 1 (Game Over message with restart button)
