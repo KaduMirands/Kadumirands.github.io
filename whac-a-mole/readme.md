@@ -1,3 +1,4 @@
+(READ IN RAW)
 Video: https://youtu.be/ec8vSKJuZTk?si=h5JsKe1zhxa6CeV3
 
 Personal Additions:
